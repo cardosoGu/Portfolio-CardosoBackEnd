@@ -35,9 +35,9 @@ const translations: Record<Lang, Record<string, string>> = {
     'about.tag': 'Quem sou eu',
     'about.title': 'Backend, por essência.',
     'about.p1':
-      'Desenvolvedor backend com foco em aplicações escaláveis e APIs REST. Experiência prática na construção de sistemas seguros, autenticação (OAuth2/JWT) e integração com bancos de dados relacionais.',
+      'Desenvolvedor back-end focado em construir APIs REST robustas e sistemas completos com boa arquitetura, performance e segurança. Tenho experiência prática com autenticação, modelagem de banco de dados, integração entre serviços e desenvolvimento de aplicações escaláveis do zero ao deploy.',
     'about.p2':
-      'Entusiasta de tecnologias modernas e boas práticas de arquitetura de software. Cursando Engenharia de Software na CEUNSP e em constante evolução através de projetos reais e bootcamps focados em backend.',
+      'Cursando Engenharia de Software na CEUNSP e em constante evolução através de projetos reais e bootcamps focados em back-end. Acredito que escrever código limpo e bem estruturado é tão importante quanto fazer funcionar, e é isso que busco em cada projeto.',
     'about.stat1': 'Ano de experiência',
     'about.stat2': 'Projetos entregues',
     'about.stat3': 'Tecnologias dominadas',
@@ -110,9 +110,9 @@ const translations: Record<Lang, Record<string, string>> = {
     'about.tag': 'Who I am',
     'about.title': 'Backend, by essence.',
     'about.p1':
-      'Backend developer focused on scalable applications and REST APIs. Hands-on experience building secure systems, authentication (OAuth2/JWT), and integration with relational databases.',
+      'Back-end developer focused on building robust REST APIs and complete systems with clean architecture, performance, and security. I have hands-on experience with authentication, database modeling, service integration, and developing scalable applications from scratch to deployment.',
     'about.p2':
-      'Enthusiast of modern technologies and software architecture best practices. Studying Software Engineering at CEUNSP and constantly evolving through real projects and backend-focused bootcamps.',
+      'Currently pursuing a Software Engineering degree at CEUNSP and continuously growing through real-world projects and back-end focused bootcamps. I believe writing clean, well-structured code is just as important as making it work, and thats what I strive for in every project.',
     'about.stat1': 'Year of experience',
     'about.stat2': 'Projects delivered',
     'about.stat3': 'Technologies mastered',

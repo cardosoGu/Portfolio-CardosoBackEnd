@@ -19,7 +19,7 @@ const codeSnippet = [
   { type: 'string', text: " 'Backend Developer'," },
   { type: 'newline', text: '' },
   { type: 'key', text: ' stack:' },
-  { type: 'array', text: " ['Node.js', 'Fastify', 'TypeScript']," },
+  { type: 'array', text: " ['TypeScript', 'Java', 'NodeJS']," },
   { type: 'newline', text: '' },
   { type: 'key', text: ' focus:' },
   { type: 'string', text: " 'APIs REST & Auth Segura'," },

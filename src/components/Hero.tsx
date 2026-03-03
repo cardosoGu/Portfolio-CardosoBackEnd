@@ -22,7 +22,7 @@ const codeSnippet = [
   { type: 'array', text: " ['TypeScript', 'Java', 'NodeJS']," },
   { type: 'newline', text: '' },
   { type: 'key', text: ' focus:' },
-  { type: 'string', text: " 'APIs REST & Auth Segura'," },
+  { type: 'string', text: " 'APIs REST & Sistemas Escaláveis'," },
   { type: 'newline', text: '' },
   { type: 'key', text: ' available:' },
   { type: 'boolean', text: ' true,' },

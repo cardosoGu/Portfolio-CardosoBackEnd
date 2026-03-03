@@ -69,7 +69,8 @@ export default function Projects() {
           </h2>
         </motion.div>
 
-        <div className="space-y-px">
+        {/* Mudei de space-y-px para space-y-6 */}
+        <div className="space-y-6">
           {projects.map((project, i) => (
             <motion.div
               key={project.number}
@@ -83,13 +84,15 @@ export default function Projects() {
               <div
                 className={`
                   flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-8 p-6 lg:p-8
-                  border border-transparent rounded-2xl cursor-default transition-all duration-300
-                  ${hovered === project.number
-                    ? 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 shadow-lg shadow-black/5 dark:shadow-black/30'
-                    : 'border-zinc-100 dark:border-zinc-900'}
+                  border rounded-2xl cursor-default transition-all duration-300
+                  ${
+                    hovered === project.number
+                      ? 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 shadow-lg shadow-black/5 dark:shadow-black/30'
+                      : 'bg-zinc-50/50 dark:bg-zinc-900/50 border-zinc-100 dark:border-zinc-800/50'
+                  }
                 `}
               >
-                <span className="font-mono text-4xl lg:text-5xl font-black text-zinc-100 dark:text-zinc-800 group-hover:text-blue-500/20 transition-colors duration-300 select-none shrink-0 leading-none">
+                <span className="font-mono text-4xl lg:text-5xl font-black text-zinc-200 dark:text-zinc-800 group-hover:text-blue-500/30 transition-colors duration-300 select-none shrink-0 leading-none">
                   {project.number}
                 </span>
 
@@ -136,10 +139,6 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-
-              {i < projects.length - 1 && (
-                <div className="h-px bg-zinc-100 dark:bg-zinc-900 mx-8" />
-              )}
             </motion.div>
           ))}
         </div>

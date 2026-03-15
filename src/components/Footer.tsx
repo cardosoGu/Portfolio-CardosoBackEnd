@@ -24,9 +24,7 @@ export default function Footer() {
           </a>
 
           <p className="text-sm text-zinc-500 flex items-center gap-1.5">
-            {t('footer.made')}
-            <FiHeart size={13} className="text-blue-500" />
-            por Gustavo Cardoso — © {year}. {t('footer.copy')}
+            {© {year}. {t('footer.copy')}
           </p>
 
           <a

@@ -22,11 +22,9 @@ export default function Footer() {
             <span className="text-blue-500">{'<'}</span>C
             <span className="text-blue-500">{'/>'}</span>
           </a>
-
           <p className="text-sm text-zinc-500 flex items-center gap-1.5">
-            {© {year}. {t('footer.copy')}
+            © {year}. {t('footer.copy')}
           </p>
-
           <a
             href="#"
             onClick={(e) => {

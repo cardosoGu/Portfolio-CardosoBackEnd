@@ -20,15 +20,15 @@ interface Project {
 const projects: Project[] = [
     {
     number: '👑',
-    titlePt: 'E-commerce  GearBit (Terminando)',
-    titleEn: 'E-commerce  GearBit (Finishing)',
+    titlePt: 'E-commerce  GearBit',
+    titleEn: 'E-commerce  GearBit',
     descPt:
       '   API completa de e-commerce de perifericos, Contando com RateLimiting, banco Redis em cache, integração com API de calculo de frete e payments, Testes unitarios em todas as rotas com Vitest, Rotas documentadas com Swagger, e sistema RBAC (Rotas com permissões ADMIN/USER). Sistema de auth completo com rotação de Refresh/access Token em cookies HTTPOnly, Oauth2 (Github | Discord), email de verificação, gerenciamento de sessions, gerenciamento de shoppingCart, Fechar pedido, com email de confirmação',
     descEn:
       'Complete e-commerce REST API for computer peripherals, featuring rate limiting, Redis caching, integration with shipping cost calculation and payment APIs, unit testing coverage for all routes with Vitest, Swagger-documented routes, and RBAC system (routes with ADMIN/USER permissions). Comprehensive authentication system with HTTPOnly cookie-based Access/Refresh Token rotation, OAuth2 (GitHub | Discord), email verification, session management, shopping cart management, checkout process with order confirmation emails.',
     tags: ['TypeScript', 'Fastify', 'Prisma', 'Postgres', 'Redis', 'Vitest' ],
-    github: 'https://github.com/cardosoGu/Secure_Auth_System-API',
-    live: 'https://github.com/cardosoGu/Secure_Auth_System-API',
+    github: 'https://github.com/cardosoGu/GearBit-API',
+    live: 'https://github.com/cardosoGu/GearBit-API',
     featured: true,
   },
   {

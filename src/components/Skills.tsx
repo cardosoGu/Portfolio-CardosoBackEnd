@@ -7,6 +7,7 @@ import {
   SiNodedotjs, SiTypescript, SiPostgresql, SiMongodb,
   SiDocker, SiGit, SiSpring, SiPrisma, SiReact, SiFastify,
   SiExpress,
+  SiRedis,
 } from 'react-icons/si';
 import { DiJava } from 'react-icons/di';
 import { FiShield, FiTerminal } from 'react-icons/fi';
@@ -34,6 +35,7 @@ const skillGroups = [
     label: 'Banco de Dados',
     items: [
       { name: 'PostgreSQL', icon: SiPostgresql },
+      { name: 'Redis', icon: SiRedis },
       { name: 'MongoDB', icon: SiMongodb },
       { name: 'Prisma ORM', icon: SiPrisma },
       { name: 'Sequelize', icon: FiTerminal },

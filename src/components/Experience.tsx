@@ -99,11 +99,7 @@ export default function Experience() {
                         <h3 className="font-bold text-lg text-zinc-900 dark:text-white">
                           {lang === 'pt' ? exp.role_pt : exp.role_en}
                         </h3>
-                        {exp.current && (
-                          <span className="px-2 py-0.5 text-[10px] font-bold rounded-full bg-blue-500/15 text-blue-500 uppercase tracking-wide">
-                            {t('exp.present')}
-                          </span>
-                        )}
+
                       </div>
                       <div className="flex flex-wrap items-center gap-3 text-sm text-zinc-500 dark:text-zinc-400">
                         <span className="flex items-center gap-1 font-medium text-zinc-700 dark:text-zinc-300">

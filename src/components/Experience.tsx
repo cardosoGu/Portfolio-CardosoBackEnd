@@ -25,9 +25,9 @@ const experiences: ExpItem[] = [
     role_en: 'Backend Developer',
     company: 'Startup GoatRealm',
     location: 'Remoto',
-    start: '2026',
-    end_pt: 'Presente',
-    end_en: 'Present',
+    start: '01/2026',
+    end_pt: '03/2026',
+    end_en: '03/2026',
     desc_pt:
       'Desenvolvimento de APIs REST com foco em alta performance e segurança. Implementação de autenticação robusta com OAuth2, rotação de tokens e HTTPOnly Cookies. Criação de sistemas de gestão (CRUDs, cupons, gerenciamento de projetos), controle de permissões RBAC e integração em nuvem com Square Cloud.',
     desc_en:
